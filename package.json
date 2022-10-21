@@ -1,5 +1,5 @@
 {
-  "name": "@fastify-userland/typeorm-query-runner",
+  "name": "@web-server-userland/fastify-typeorm-query-runner",
   "version": "1.0.0",
   "description": "Fastify typeorm QueryRunner",
   "main": "index.js",
@@ -26,13 +26,13 @@
     "index.d.ts"
   ],
   "author": "Black-Hole <158blackhole@gmail.com>",
-  "homepage": "https://github.com/fastify-userland/typeorm-query-runner#readme",
+  "homepage": "https://github.com/web-server-userland/fastify-typeorm-query-runner#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fastify-userland/typeorm-query-runner.git"
+    "url": "git+https://github.com/web-server-userland/fastify-typeorm-query-runner.git"
   },
   "bugs": {
-    "url": "https://github.com/fastify-userland/typeorm-query-runner/issues"
+    "url": "https://github.com/web-server-userland/fastify-typeorm-query-runner/issues"
   },
   "license": "MIT",
   "devDependencies": {
