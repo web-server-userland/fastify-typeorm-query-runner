@@ -71,5 +71,5 @@ function fastifyTypeORMQueryRunner (fastify, opts, done) {
 
 module.exports = fp(fastifyTypeORMQueryRunner, {
   fastify: '4.x',
-  name: '@fastify-userland/typeorm-query-runner'
+  name: '@web-server-userland/fastify-typeorm-query-runner'
 })

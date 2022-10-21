@@ -1,10 +1,10 @@
-# @fastify-userland/typeorm-query-runner
+# @web-server-userland/fastify-typeorm-query-runner
 
-![CI](https://github.com/fastify-userland/typeorm-query-runner/workflows/CI/badge.svg)
-[![NPM version](https://img.shields.io/npm/v/@fastify-userland/typeorm-query-runner.svg?style=flat)](https://www.npmjs.com/package/@fastify-userland/typeorm-query-runner)
+![CI](https://github.com/web-server-userland/fastify-typeorm-query-runner/workflows/CI/badge.svg)
+[![NPM version](https://img.shields.io/npm/v/@web-server-userland/fastify-typeorm-query-runner.svg?style=flat)](https://www.npmjs.com/package/@web-server-userland/fastify-typeorm-query-runner)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://standardjs.com/)
-[![NPM size](https://img.shields.io/bundlephobia/min/@fastify-userland/typeorm-query-runner)](https://www.npmjs.com/package/@fastify-userland/typeorm-query-runner)
-[![Coverage Status](https://coveralls.io/repos/github/fastify-userland/typeorm-query-runner/badge.svg?branch=main)](https://coveralls.io/github/fastify-userland/typeorm-query-runner?branch=main)
+[![NPM size](https://img.shields.io/bundlephobia/min/@web-server-userland/fastify-typeorm-query-runner)](https://www.npmjs.com/package/@web-server-userland/fastify-typeorm-query-runner)
+[![Coverage Status](https://coveralls.io/repos/github/web-server-userland/fastify-typeorm-query-runner/badge.svg?branch=main)](https://coveralls.io/github/web-server-userland/fastify-typeorm-query-runner?branch=main)
 
 A plugin for Fastify that adds support for `typrorm QueryRunner and Transaction`.
 
@@ -16,13 +16,13 @@ Supports Fastify versions 4.x.
 
 ```shell
 # npm
-npm i @fastify-userland/typeorm-query-runner
+npm i @web-server-userland/fastify-typeorm-query-runner
 
 # pnpm
-pnpm add @fastify-userland/typeorm-query-runner
+pnpm add @web-server-userland/fastify-typeorm-query-runner
 
 # yarn
-yarn add @fastify-userland/typeorm-query-runner
+yarn add @web-server-userland/fastify-typeorm-query-runner
 ```
 
 ## Usage
@@ -30,7 +30,7 @@ yarn add @fastify-userland/typeorm-query-runner
 ```JavaScript
 const fastify = require('fastify')()
 
-fastify.register(require('@fastify-userland/typeorm-query-runner'), {
+fastify.register(require('@web-server-userland/fastify-typeorm-query-runner'), {
   dataSource: dataSource,
   transaction: true,
   match: request => request.routerPath.startsWith('/v2'),
