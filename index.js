@@ -17,7 +17,7 @@ function fastifyTypeORMQueryRunner (fastify, opts, done) {
   }
 
   if (!('createQueryRunner' in opts.dataSource)) {
-    return done(new Error('dataSource.createQueryRunner is not required'))
+    return done(new Error('dataSource.createQueryRunner is required'))
   }
 
   const options = Object.assign({}, defaultOptions, opts)
